@@ -8,7 +8,7 @@
  }
 
  body, html{
-    background-color: #5f2c82;
+    background-color: whitesmoke;
     height: 100vh;
     width: 100vw;
    
@@ -32,11 +32,14 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     overflow: hidden;
 
+    transition: width .2s, height .2s ;
+    transition-timing-function: ease;
+
  }
 
 section#login > div#imagem{
     display: block;
-    background: #5f2c82 url(../imagens/pexels-785963761-31042046.jpg) no-repeat;
+    background: white url(../imagens/pexels-785963761-31042046.jpg) no-repeat;
     background-size: cover;
     background-position: left center;
     height: 200px;
